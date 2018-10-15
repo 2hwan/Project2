@@ -38,8 +38,6 @@ body {
   display: inline-block;
 }
 
-/*index*/
-
  .my_title
 {
   text-align: center;
@@ -49,10 +47,6 @@ body {
   font-size: 70px; 
 }
 
- .center
-{
-  text-align: center;
-}
  .s_title
 {
   text-align: center;
@@ -63,7 +57,58 @@ body {
   color: purple;
  }
 
- .block 
+ .center
+{
+  text-align: center;
+}
+
+/*index*/
+
+ .idx_block 
+{
+  width: 90%;
+  margin: 20px 20px 20px 20px;
+  padding: 20px;
+  border: 10px dotted pink;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.idx_block li {
+  margin: 20px 20px 20px 20px;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+.idx_block ul {
+  list-style: none;
+}
+
+ .idx_block2 
+{
+  width: 90%;
+  margin: 20px 20px 20px 20px;
+  padding: 20px;
+  border: 10px dotted #FF4848;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.idx_block2 li {
+  margin: 20px 20px 20px 20px;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+.idx_block2 ul {
+  list-style: none;
+}
+
+ .idx_block3 
 {
   width: 90%;
   margin: 20px 20px 20px 20px;
@@ -74,16 +119,17 @@ body {
   text-align: center;
 }
 
-.block li {
+.idx_block3 li {
   margin: 20px 20px 20px 20px;
   font-family: 'Yantramanav', sans-serif;
   font-size: 25px;
   text-align: center;
 }
 
-.block ul {
+.idx_block3 ul {
   list-style: none;
 }
+
 /*resume*/
 
 .re_title{
@@ -98,19 +144,56 @@ body {
   margin-right:20px;
   float:right; 
 }
+
+.edu{
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+.exp{
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+.ski{
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+.AS{
+  margin-bottom: 50px;
+}
+
 /*school*/
-.block2 
+
+ .sch_block 
 {
   width: 90%;
   margin: 20px 20px 20px 20px;
   padding: 20px;
-  border: 10px dotted red;
+  border: 10px dashed yellowgreen;
   font-family: 'Yantramanav', sans-serif;
   font-size: 20px;
   text-align: center;
 }
 
-.block2 ul {
+
+.sch_block ul {
+  list-style: none;
+}
+
+.sch_block2 
+{
+  width: 90%;
+  margin: 20px 20px 20px 20px;
+  padding: 20px;
+  border: 10px dashed green;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.sch_block2 ul {
   font : bold 20px/20px 'Yantramanav', sans-serif;
   text-align : left;
 }
