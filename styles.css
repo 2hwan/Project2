@@ -197,3 +197,9 @@ body {
   font : bold 20px/20px 'Yantramanav', sans-serif;
   text-align : left;
 }
+
+.center .vedio
+{
+	width: 60%;
+	height: 60%;
+}
