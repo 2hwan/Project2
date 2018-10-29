@@ -1,31 +1,31 @@
 /*common*/
 body {
-  background-color: #7EFFFF;
+  background-color: #FFFFFF;
   line-height: 1;
 }
 
 .menu {	
-  background-color: yellow; 
+  background-color: #24292E; 
   height:50px;
   position: fixed; 
-  margin: 0% 25% 0% 25%;
   top: 0; 
-  width:50%; 
+  width:100%; 
 } 
 
 .menu a { 
   display: block; 
   color: black; 
   text-align: center; 
-  align-content:center;
+  align-content:left;
   padding: 10px 16px;
   text-decoration:none; 
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 30px;
+  color : #ffffff
 }
  
 .menu a:hover {
-    background-color: #FFA500
+	color : #9ebfcb
 }
 
 .menu ul
@@ -62,12 +62,40 @@ body {
   text-align: center;
 }
 
+.foot {
+  width: 80%;
+  margin:auto;	
+  background-color: #ffffff; 
+  height:50px;
+  border-top: 1px solid #eaecef;  
+  text-align: left; 
+  align-content:left;  
+} 
+
+.foot a { 
+  display: block; 
+  padding: 10px 20px;
+  text-decoration:none; 
+  font-size: 12px;
+  color : #0366d6;
+}
+
+.foot ul
+{
+  margin: 10px;
+}
+
+.foot li {
+  color : #b97981;
+  display: inline-block;
+}
+
 /*index*/
 
  .idx_block 
 {
-  width: 90%;
-  margin: 20px 20px 20px 20px;
+  width: 70%;
+  margin:auto;
   padding: 20px;
   border: 10px dotted pink;
   font-family: 'Yantramanav', sans-serif;
@@ -88,8 +116,8 @@ body {
 
  .idx_block2 
 {
-  width: 90%;
-  margin: 20px 20px 20px 20px;
+  width: 70%;
+  margin:auto;
   padding: 20px;
   border: 10px dotted #FF4848;
   font-family: 'Yantramanav', sans-serif;
@@ -98,7 +126,8 @@ body {
 }
 
 .idx_block2 li {
-  margin: 20px 20px 20px 20px;
+  width: 70%;
+  margin:auto;
   font-family: 'Yantramanav', sans-serif;
   font-size: 25px;
   text-align: center;
@@ -110,8 +139,8 @@ body {
 
  .idx_block3 
 {
-  width: 90%;
-  margin: 20px 20px 20px 20px;
+  width: 70%;
+  margin:auto;
   padding: 20px;
   border: 10px dotted red;
   font-family: 'Yantramanav', sans-serif;
@@ -120,7 +149,7 @@ body {
 }
 
 .idx_block3 li {
-  margin: 20px 20px 20px 20px;
+  margin: auto;
   font-family: 'Yantramanav', sans-serif;
   font-size: 25px;
   text-align: center;
@@ -131,6 +160,9 @@ body {
 }
 
 /*resume*/
+.resu{
+  margin-left: 15%;
+}
 
 .re_title{
   margin-top:80px;
@@ -139,28 +171,30 @@ body {
 }
 
 .address{
+  
   text-align:right;
   font:20px arial;
-  margin-right:20px;
+  margin-right:15%;
   float:right; 
 }
 
 .edu{
-  margin-left: 20px;
+  margin-left: 15%;
   margin-bottom: 50px;
 }
 
 .exp{
-  margin-left: 20px;
+  margin-left: 15%;
   margin-bottom: 50px;
 }
 
 .ski{
-  margin-left: 20px;
+  margin-left: 15%;
   margin-bottom: 50px;
 }
 
 .AS{
+  margin-left: 15%;
   margin-bottom: 50px;
 }
 
@@ -168,8 +202,8 @@ body {
 
  .sch_block 
 {
-  width: 90%;
-  margin: 20px 20px 20px 20px;
+  width: 70%;
+  margin:auto;
   padding: 20px;
   border: 10px dashed yellowgreen;
   font-family: 'Yantramanav', sans-serif;
@@ -182,10 +216,15 @@ body {
   list-style: none;
 }
 
+.img{
+  width: 40%;
+  height: 40%;
+}
+
 .sch_block2 
 {
-  width: 90%;
-  margin: 20px 20px 20px 20px;
+  width: 70%;
+  margin: auto;
   padding: 20px;
   border: 10px dashed green;
   font-family: 'Yantramanav', sans-serif;
@@ -200,6 +239,6 @@ body {
 
 .center .vedio
 {
-	width: 60%;
-	height: 60%;
+  width: 65%;
+  height: 60%;
 }
