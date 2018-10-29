@@ -1,7 +1,14 @@
 /*common*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+
 body {
-  background:url('media/bg.jpg');
-  
+  background:url('media/bg.jpg'); 
 }
 
 .menu {	
@@ -9,10 +16,12 @@ body {
   height:50px;
   position: fixed; 
   top: 0; 
-  width:100%; 
+  width:100%;
+ list-style: none;
 } 
 
 .menu a { 
+list-style: none;
   display: block; 
   color: black; 
   text-align: center; 
@@ -63,7 +72,7 @@ body {
 }
 
 .foot {
-  width: 70%;
+  width: 60%;
   margin:auto;	
   background-color: #ffffff; 
   height:50px;
