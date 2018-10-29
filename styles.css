@@ -5,8 +5,6 @@
   box-sizing: border-box;
 }
 
-
-
 body {
   background:url('media/bg.jpg'); 
 }
@@ -17,11 +15,9 @@ body {
   position: fixed; 
   top: 0; 
   width:100%;
- list-style: none;
 } 
 
 .menu a { 
-list-style: none;
   display: block; 
   color: black; 
   text-align: center; 
@@ -248,6 +244,6 @@ list-style: none;
 
 .center .vedio
 {
-  width: 65%;
+  width: 70%;
   height: 60%;
 }
