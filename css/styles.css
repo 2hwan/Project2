@@ -112,6 +112,7 @@ body {
 
  .center
 {
+  float : none;
   text-align: center;
 }
 
@@ -146,6 +147,7 @@ body {
 
  .idx_block 
 {
+  float : none;
   width: 70%;
   margin:auto;
   padding: 20px;
@@ -156,6 +158,7 @@ body {
 }
 
 .idx_block li {
+  float : none;
   margin: 20px 20px 20px 20px;
   font-family: 'Yantramanav', sans-serif;
   font-size: 25px;
@@ -163,11 +166,13 @@ body {
 }
 
 .idx_block ul {
+  float : none;
   list-style: none;
 }
 
  .idx_block2 
 {
+  float : none;
   width: 70%;
   margin:auto;
   padding: 20px;
@@ -178,6 +183,7 @@ body {
 }
 
 .idx_block2 li {
+  float : none;
   width: 70%;
   margin:auto;
   font-family: 'Yantramanav', sans-serif;
@@ -186,11 +192,13 @@ body {
 }
 
 .idx_block2 ul {
+  float : none;
   list-style: none;
 }
 
  .idx_block3 
 {
+  float : none;
   width: 70%;
   margin:auto;
   padding: 20px;
@@ -201,6 +209,7 @@ body {
 }
 
 .idx_block3 li {
+  float : none;
   margin: auto;
   font-family: 'Yantramanav', sans-serif;
   font-size: 25px;
@@ -208,6 +217,7 @@ body {
 }
 
 .idx_block3 ul {
+  float : none;
   list-style: none;
 }
 
@@ -254,6 +264,7 @@ body {
 
  .sch_block 
 {
+  float : none;
   width: 70%;
   margin:auto;
   padding: 20px;
@@ -265,16 +276,19 @@ body {
 
 
 .sch_block ul {
+  float : none;
   list-style: none;
 }
 
 .img{
+  float : none;
   width: 40%;
   height: 40%;
 }
 
 .sch_block2 
 {
+  float : none;
   width: 70%;
   margin: auto;
   padding: 20px;
@@ -285,12 +299,14 @@ body {
 }
 
 .sch_block2 ul {
+  float : left;
   font : bold 20px/20px 'Yantramanav', sans-serif;
   text-align : left;
 }
 
 .center .vedio
 {
+  float : none;
   width: 70%;
   height: 60%;
 }
