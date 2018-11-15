@@ -266,7 +266,7 @@ body {
 {
   float : none;
   width: 70%;
-  margin:auto;
+  margin: auto;
   padding: 20px;
   border: 10px dashed yellowgreen;
   font-family: 'Yantramanav', sans-serif;
@@ -288,9 +288,10 @@ body {
 
 .sch_block2 
 {
-  float : none;
+  float : left;
   width: 70%;
-  margin: auto;
+  margin-left: 15%;
+  margin-bottom: 10%;
   padding: 20px;
   border: 10px dashed green;
   font-family: 'Yantramanav', sans-serif;
