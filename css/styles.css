@@ -223,7 +223,9 @@ body {
 
 /*resume*/
 .resu{
+  font-size: 25px;
   margin-left: 15%;
+  margin-bottom: 15px;
 }
 
 .re_title{
@@ -233,7 +235,6 @@ body {
 }
 
 .address{
-  
   text-align:right;
   font:20px arial;
   margin-right:15%;
@@ -241,23 +242,27 @@ body {
 }
 
 .edu{
-  margin-left: 15%;
+  margin-left: 220px;
   margin-bottom: 50px;
+  line-height: 120%;
 }
 
 .exp{
-  margin-left: 15%;
+  margin-left: 220px;
   margin-bottom: 50px;
+  line-height: 120%;
 }
 
 .ski{
-  margin-left: 15%;
+  margin-left: 220px;
   margin-bottom: 50px;
+  line-height: 120%;
 }
 
 .AS{
-  margin-left: 15%;
+  margin-left: 220px;
   margin-bottom: 50px;
+  line-height: 120%;
 }
 
 /*school*/
